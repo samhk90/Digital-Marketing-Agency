@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid banner">
+        <div class="row main ">
+            <div class="col-sm-7 maincol">
+                <Span>AWARD WINNING</Span>
+                <h1>DIGITAL MARKETING AGENCY</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus culpa ipsam blanditiis sit dicta necessitatibus accusantium est neque earum, inventore numquam. Ex dolore aspernatur libero enim? Praesentium mollitia asperiores laboriosam.
+                </p>
+                <div class="buttons">
+                    <button id="showbtn" class="btn " data-bs-toggle="modal" data-bs-target="#contact-form-modal">
+                        Contact Us
+                    </button>
+                    <div id="contact-form-modal" class="modal fade" tabindex="-1" aria-labelledby="contact-form-modal-label" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="contact-form-modal-label">Contact Us</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        
+                                        <form id="contact-form" action="https://getform.io/f/your-getform-endpoint" method="POST" class="flex-grow-1">
+                                            <div class="mb-3">
+                                                <label for="name" class="form-label">Name</label>
+                                                <input type="text" class="form-control" id="name" name="name" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="email" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="email" name="email" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="message" class="form-label">Message</label>
+                                                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 img-col p-5">
+                <img src="img/banner.png" class="img " alt="" style="height:70%;">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="portfolio-col-1">
+                        <span>WHAT WE DO</span>
+                        <h1>SERVICES PROVIDE FOR YOU</h1>
+                    </div>
+                    <div class="portfolio-col-2">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse tempora ius eos nostrum optio iste
+                            laboriosam, quisquam ducimus, vel laudantium beatae omnis. Vel velit sint rerum minima illo!</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="slider"><div class="card">
+                            <div class="img"><img src="img/1.png" alt="img" draggable="false"></div>
+                            <div class="layer">
+                                <img src="Assets/icons/icon.svg" alt="">
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div><div class="card">
+                            <div class="img"><img src="img/2.png" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div><div class="card">
+                            <div class="img"><img src="img/1.png" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img"><img src="img/2.png" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""> </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img"><img src="img/1.png" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img"><img src="img/2.png" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img"><img src="img/1.png" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img"><img src="img/2.png" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img"><img src="img/2.png" alt="img" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img"><img src="img/1.png" alt="img" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img"><img src="img/2.png" alt="img" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img"><img src="img/1.png" alt="img" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+    
+                    <div class="card">
+                            <div class="img"><img src="img/1.png" alt="img" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""> </a>
+                            </div>
+                        </div><div class="card">
+                            <div class="img"><img src="img/2.png" alt="img" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div><div class="card">
+                            <div class="img"><img src="img/1.png" alt="img" draggable="false"></div>
+                            <div class="layer">
+                                
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quod impedit?</p>
+                                <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow" src="Assets/icons/arrow.svg" alt=""></a>
+                            </div>
+                        </div></div>
+                    <div class="dot-container">
+                        <div class="dot black-dot"></div>
+                        <div class="dot red-dot"></div>
+                        <div class="dot black-dot"></div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-5" style="text-align: center;">
+        <span class="text-center">OUR PROJECT</span>
+        <h1>WHY WE ARE BEST</h1>
+        <div class="row">
+            <div class="project-col-1">
+                <div class="photos">
+                    <img id="mainImage" src="Assets/images/japan3.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="project-col-2 p-5">
+                <div class="about-photos grey" onclick="changeImage('img/japan1.jpg')">
+                    <h3>Genderless Kei - Japan's Hot</h3>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+                <div class="about-photos grey" id="default-selected" onclick="changeImage('img/image.png')">
+                    <h3>Better Strategy &amp; Quality</h3>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+                <div class="about-photos grey selected" onclick="changeImage('img/japan3.jpg')">
+                    <h3>Genderless Kei - Japan's Hot</h3>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <!-- Scripts -->
+         <script>
+            let currentImageIndex = 0;
+            const images = [
+                'img/japan1.jpg',
+                'img/image.png',
+                'img/japan3.jpg'
+            ];
+            const aboutPhotosElements = document.querySelectorAll('.about-photos');
+            let intervalId;
+            
+            function changeImage(src, element) {
+                document.getElementById('mainImage').src = src;
+            
+                // Remove 'selected' class from all 'about-photos' elements
+                aboutPhotosElements.forEach(el => {
+                    el.classList.remove('selected');
+                });
+            
+                // Add 'selected' class to the clicked element
+                if (element) {
+                    element.classList.add('selected');
+                    // Update currentImageIndex to the index of the clicked image
+                    currentImageIndex = Array.from(aboutPhotosElements).indexOf(element);
+                }
+            }
+            
+            function changeImageAutomatically() {
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+                const mainImageElement = document.getElementById('mainImage');
+                mainImageElement.src = images[currentImageIndex];
+            
+                // Update the selected class
+                aboutPhotosElements.forEach((el, index) => {
+                    el.classList.remove('selected');
+                    if (index === currentImageIndex) {
+                        el.classList.add('selected');
+                    }
+                });
+            }
+            
+            // Set an interval to change the image automatically every 3 seconds
+            intervalId = setInterval(changeImageAutomatically, 3000);
+            
+            // Add event listeners to the about-photos elements
+            aboutPhotosElements.forEach((element, index) => {
+                element.addEventListener('click', () => {
+                    changeImage(images[index], element);
+                    clearInterval(intervalId); // Clear the interval to stop the automatic change
+                    intervalId = setInterval(changeImageAutomatically, 3000); // Restart the interval
+                });
+            });
+            
+            const work = document.querySelector(".work");
+const slider = document.querySelector(".slider");
+const firstCardWidth = slider.querySelector(".card").offsetWidth;
+const sliderChildrens = [...slider.children];
+const dots = document.querySelectorAll(".dot");
+
+let isDragging = false;
+let timeoutId;
+
+// Clone slides for infinite scrolling
+const cardPerView = Math.round(slider.offsetWidth / firstCardWidth);
+sliderChildrens.slice(-cardPerView).reverse().forEach(card => {
+    slider.insertAdjacentHTML("afterbegin", card.outerHTML);
+});
+sliderChildrens.slice(0, cardPerView).forEach(card => {
+    slider.insertAdjacentHTML("beforeend", card.outerHTML);
+});
+
+slider.classList.add("no-transition");
+slider.scrollLeft = slider.offsetWidth;
+slider.classList.remove("no-transition");
+
+const updateDots = () => {
+    const currentIndex = Math.round(slider.scrollLeft / firstCardWidth) % (sliderChildrens.length / 3);
+
+    dots.forEach((dot, index) => {
+        if (index === currentIndex) {
+            dot.classList.add("active");
+        } else {
+            dot.classList.remove("active");
+        }
+    });
+}
+
+const infiniteScroll = () => {
+    if (slider.scrollLeft === 0) {
+        slider.classList.add("no-transition");
+        slider.scrollLeft = slider.scrollWidth - (2 * slider.offsetWidth);
+        slider.classList.remove("no-transition");
+    } else if (Math.ceil(slider.scrollLeft) === slider.scrollWidth - slider.offsetWidth) {
+        slider.classList.add("no-transition");
+        slider.scrollLeft = slider.offsetWidth;
+        slider.classList.remove("no-transition");
+    }
+
+    updateDots();
+
+    clearTimeout(timeoutId);
+    if (!work.matches(":hover")) autoPlay();
+}
+
+const autoPlay = () => {
+    if (window.innerWidth < 800) return;
+
+    timeoutId = setTimeout(() => {
+        slider.scrollLeft += firstCardWidth;
+        updateDots();
+    }, 2500);
+}
+
+updateDots();
+
+autoPlay();
+
+slider.addEventListener("scroll", infiniteScroll);
+work.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+work.addEventListener("mouseleave", autoPlay);
+
+dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+        slider.scrollLeft = index * firstCardWidth;
+        updateDots();
+    });
+});
+
+         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+</body>
+</html>
